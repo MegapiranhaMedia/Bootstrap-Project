@@ -1,0 +1,41 @@
+nav {
+    margin-top: 20px;
+}
+
+.headingRow {
+    margin-top: 40px;
+    height: 450px;
+}
+
+button {
+    margin: 10px 0px;
+}
+
+.featureHead {
+    font-size: 48px;
+    line-height: 46px;
+    margin: 150px 10% 0px 10%;
+    color: gray;
+}
+
+.feature {
+    font-size: 48px;
+    color: lightgray;
+    line-height: 46px;
+    margin: 0px 10%;
+}
+
+.lead {
+    margin: 10px 10% 0px 10%;
+}
+
+.divider {
+    height: 1px;
+    margin: 5%;
+    background-color: lightgray;
+}
+
+.wrapper {
+    margin-right: 10%;
+    height: 600px;
+}
