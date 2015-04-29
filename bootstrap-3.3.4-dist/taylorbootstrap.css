@@ -39,3 +39,22 @@ button {
     margin-right: 10%;
     height: 600px;
 }
+
+.form-group {
+    width: 500px;
+    margin: 10px 100px;
+}
+
+.checkbox {
+    width: 500px;
+    margin: 10px 100px;
+}
+
+#formButton {
+    margin: 10px 100px;
+}
+
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}

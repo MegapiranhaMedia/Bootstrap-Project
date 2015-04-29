@@ -7,6 +7,8 @@
     <link href="css/bootstrap-theme.min.css" rel="stylesheet" type="text/css">
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="taylorbootstrap.css" rel="stylesheet" type="text/css">
+    <script src="pace.js"></script>
+    <link href="pace.css" rel="stylesheet" />
 
     <title>Carousel Template for Bootstrap</title>
 
@@ -129,6 +131,9 @@
     </div>
     <!--End of 3 headings-->
 
+    <div class="parallax-window"></div>
+
+
     <div class="divider"></div>
     <div class="wrapper">
         <div class="col-md-7">
@@ -162,9 +167,43 @@
     </div>
 
 
+    <form role="form">
+        <div class="form-group">
+            <label for="fullName">Full name:</label>
+            <input type="fullName" class="form-control" id="fullName">
+        </div>
+        <div class="form-group">
+            <label for="email">Email address:</label>
+            <input type="email" class="form-control" id="email">
+        </div>
+        <div class="form-group">
+            <label for="username">Username:</label>
+            <input type="username" class="form-control" id="username">
+        </div>
+        <div class="form-group">
+            <label for="pwd">Password:</label>
+            <input type="password" class="form-control" id="pwd">
+        </div>
+        <div class="checkbox">
+            <label>
+                <input type="checkbox">I Agree</label>
+        </div>
+        <button type="submit" class="btn btn-default" id="formButton">Submit</button>
+    </form>
+
+
 
     <script src="http://code.jquery.com/jquery.js"></script>
+
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="parallax.js"></script>
+    <script>
+        $('.parallax-window').parallax({
+            imageSrc: 'holder.js/500x500/gray'
+        });
+    </script>
     <script type='text/javascript ' src="http://imsky.github.io/holder/holder.js"></script>
 </body>
 
